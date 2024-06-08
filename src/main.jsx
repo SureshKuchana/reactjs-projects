@@ -5,7 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import ErrorPage from "./error-page";
-
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 import './index.css'
 import Root from './routes/root.jsx';
@@ -39,5 +39,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    <SpeedInsights />
   </React.StrictMode>,
 )
