@@ -8,10 +8,13 @@ export default function Root() {
         <nav>
           <ul>
             <li>
-              <Link to={"/projects/1"}>Typeahead / Autosuggestions</Link>
+              <Link to={"/projects/typeAhead"}>Typeahead / Autosuggestions</Link>
             </li>
             <li>
-              <Link to={"/projects/2"}>Project 2</Link>
+              <Link to={"/projects/jiraVelocityChart"}>Jira Velocity Bar Chart</Link>
+            </li>
+            <li>
+              <Link to={"/projects/fileExplorer"}>File Explorer</Link>
             </li>
           </ul>
         </nav>

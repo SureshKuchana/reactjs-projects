@@ -6,6 +6,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
+    'unused-imports'
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
@@ -17,5 +18,6 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+   "unused-imports/no-unused-imports": "error",
   },
 }
